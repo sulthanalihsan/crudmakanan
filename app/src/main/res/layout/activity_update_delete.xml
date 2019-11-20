@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateDeleteActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_update_nama"
+        android:hint="update nama"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_update_harga"
+        android:hint="update harga"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_update_url"
+        android:hint="update url gambar"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_update"
+        android:text="Update"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_delete"
+        android:text="Delete"/>
+
+</LinearLayout>
